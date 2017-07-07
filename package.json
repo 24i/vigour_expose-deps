@@ -1,0 +1,32 @@
+{
+  "name": "expose-deps",
+  "version": "1.0.0",
+  "description": "Expose your project's dependencies to it's dependants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigour-io/expose-deps.git"
+  },
+  "keywords": [
+    "node",
+    "modules",
+    "dependencies",
+    "link",
+    "install",
+    "npm",
+    "yarn"
+  ],
+  "author": "Youri Daamen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigour-io/expose-deps/issues"
+  },
+  "homepage": "https://github.com/vigour-io/expose-deps#readme",
+  "dependencies": {
+    "pkg-dir": "^2.0.0",
+    "then-fs": "^2.0.0"
+  }
+}
