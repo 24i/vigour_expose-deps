@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "expose-deps": "cmd.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vigour-io/expose-deps.git"
@@ -26,7 +29,9 @@
   },
   "homepage": "https://github.com/vigour-io/expose-deps#readme",
   "dependencies": {
+    "get-installed-path": "^2.0.3",
     "pkg-dir": "^2.0.0",
+    "shelljs": "^0.7.8",
     "then-fs": "^2.0.0"
   }
 }
